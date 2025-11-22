@@ -1,0 +1,71 @@
+body{
+        background: linear-gradient(135deg, #f6d365, #fda085);
+
+}
+.a{
+ border-radius: 10px;
+ margin-left: 1em;
+ cursor: pointer;
+ position: relative;
+ transition :0.6s ease;
+}
+.a:hover{
+    transform: scale(1.5);
+}
+.b{
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-left: 5em;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.b:hover{
+    transform: scale(1.5);
+}
+
+.d{
+    margin-top: 3em;
+    border-top-color:red;
+    border-left-color: greenyellow;
+    width: 50em;
+    height: 20em;
+    font-size: 1.5em;
+    font-family:"Stack Sans Headline", sans-serif;
+
+
+}
+.c{
+   margin-left: 5em;
+   border-radius:20px;
+   cursor: pointer;
+   transition: 0.6s ease;
+}
+.c:hover{
+    transform: scale(1.5);
+}
+.N{ font-family:"Science Gothic", sans-serif;
+    margin-left: 10px;
+    height: 4em;
+    width: 5em;
+    background-color: red;
+    cursor:pointer;
+    color: white;
+    transition: 0.4s ease;
+    border-radius: 5px;
+
+}
+.N:hover{
+  transform: scale(1.5);
+}
+.p{ margin-left: 30px;
+    font-family:"Science Gothic", sans-serif;
+    width: 9em;
+    height: 4em;
+    color: black;
+    background-color: greenyellow;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.p:hover{
+    transform:scale(1.5);
+}

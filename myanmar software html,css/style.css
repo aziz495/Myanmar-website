@@ -1,0 +1,124 @@
+body{
+  background-image: url("Buddhist-temples-Pagan-Myanmar.webp");
+}
+
+.un{
+  margin-top: 1em;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+
+}
+.u{
+  font-size: 30px;
+  margin-left: 120px;
+  margin-top: -2em;
+  color: white;
+}
+
+.top-right-box{
+   width: 40px;
+   height: 20px;
+   background: red;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+.nav-bar {
+  width: 600px;
+  height: 90px;
+  background: red;
+  transform: skew(-20deg);
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.nav-bar ul {
+   list-style: none;
+   display: flex;
+   gap: 40px;
+   transform: skew(20deg); /* opposite skew to straighten text */
+}
+.nav-bar a {
+   color: white;
+   text-decoration: none;
+   font-size: 22px;
+   font-family: Arial, sans-serif;
+   font-weight: bold;
+}
+
+circle{
+  width: 12em;
+ height: 12em;
+ background: red;
+  border-radius: 50%;
+  margin-left: 10em;
+  margin-top: 6em;
+ box-shadow : 0 30px 40px black;
+ transition : 0.3s ease;
+}
+
+
+.h{
+ width: 10em;
+ height: 10em;
+ margin-top: 40px;
+margin-left:-5px;
+}
+
+
+.w {
+
+    box-sizing: border-box;
+    font-family: "Boldonse", system-ui; 
+
+    text-align: center;
+     margin-top: 11em;
+    color: white;
+    border-top-style: solid;
+    border-top-color: red;
+    border-top-width: 10px;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+
+ .wcircle{
+  width: 12em;
+ height: 12em;
+ background: red;
+  border-radius: 50%;
+ margin-left: 50em;
+ margin-top: -6em;
+ box-shadow : 0 30px 40px black;
+ transition : 0.3s ease;
+ }
+
+.p{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+.s{
+  color: white;
+  margin-top: 8em;
+  font-family:'Courier New', Courier, monospace
+}
+.n{
+  width: 10em;
+  height:60px;
+  font-family: "Boldonse", system-ui;
+  weight: 400;
+  background-color: green;
+  color: white;
+  cursor:pointer;
+  border-radius: 20px;
+}
+.n:hover{
+    background-color:lightseagreen;
+
+}
