@@ -78,7 +78,7 @@ body{
     width: 60px;
     height: 60px;
 }
-.cb{
+.cb{background-color: yellow;
     border-radius: 10px;
     width: 5em;
     height: 90px;
@@ -93,7 +93,7 @@ body{
 p{
     display: none;
 }
-}
+
 .cb:hover p{
     display:flex;
     font-size: 30px;width:300px;
@@ -104,7 +104,7 @@ p{
     text-align: center;
     cursor: pointer;
 }
-.ve{
+.ve{background-color: yellow;
     border-radius: 10px;
     font-family: "Lora", serif;
     font-size: 40px;
@@ -125,11 +125,17 @@ p{
 
 }
 .ve:hover{
-    transform:scale(1.5);
+    transform:scale(1.2);
 }
 .cb:hover{
-    transform: scale(1.5);
+  transform: scale(1.2);
 }
+.f{
+   color:white;
+   margin-top: 20em;
+}
+ 
+
 .snow{
     position:fixed;
     top:1vh;
@@ -142,4 +148,5 @@ p{
     to{
         transform:translateY(100vh);
     }
+
 }

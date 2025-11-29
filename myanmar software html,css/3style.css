@@ -1,50 +1,308 @@
-body{
-        background: linear-gradient(135deg, #f6d365, #fda085);
+body{   margin:0px;
+        background: white;
 
 }
-.a{
- border-radius: 10px;
- margin-left: 1em;
- cursor: pointer;
- position: relative;
- transition :0.6s ease;
+.la{ 
+    top:0;
+    display: flex;
+    gap:10em;
+    padding-left:30px;
+    font-size: 30px;
+    background-color: black;
+    top:5%;
 }
-.a:hover{
-    transform: scale(1.5);
-}
-.b{
-    margin-top: 40px;
-    border-radius: 10px;
-    margin-left: 5em;
+.lab{
+    color:white;
     cursor: pointer;
-    transition: 0.6s ease;
 }
-.b:hover{
-    transform: scale(1.5);
+.lab:hover{
+    color: red;
 }
 
-.d{
-    margin-top: 3em;
-    border-top-color:red;
-    border-left-color: greenyellow;
-    width: 50em;
-    height: 20em;
-    font-size: 1.5em;
-    font-family:"Stack Sans Headline", sans-serif;
 
+
+
+.lav{
+    color:white;
+    cursor: pointer;
+}
+.drop a{
+   
+    background-color:gray;
+    display:block;
+    color: red;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.drop .content{
+    position: absolute;
+}
+
+.drop:hover a{
+    color: red;
+}
+
+.lac{
+    color:white;
+    cursor:pointer;
+}
+.lac:hover{
+    color: red;
+}
+
+
+.sea{
+    position: absolute;
+    top:7%;
+    padding-left: 72em;
+   
 
 }
+.material-symbols-outlined{
+    color: red;
+    position: absolute;
+    top:7%;
+    padding-left: 56em;
+    width: 50px;
+    height: 50px;
+     
+
+}
+
+
+.fi{
+    padding: top 40px;
+    padding-left: 10em;
+    margin-top: 10em;
+}
+
+.im{ padding-left:40px;
+    width: 60em;
+    height: 600px;
+
+   
+
+}
+.de{ font-family: "Stack Sans Text", sans-serif;
+    position: absolute;
+    top:0;
+    padding-top:7em;
+    padding-left:50px;
+    color:white;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+  
+
+.S{ position: absolute;
+    width: 12em;
+    height: 4em;
+    font-size: 20px;
+    background-color: gold;
+    top:95%;
+    left:15%;
+    border-radius: 20px;
+    color: black;
+    cursor:pointer;
+ 
+
+}
+.S:hover{
+    background-color: yellow;
+}
+
+
+
+
+
+
 .c{
-   margin-left: 5em;
-   border-radius:20px;
-   cursor: pointer;
-   transition: 0.6s ease;
+   display: flex;
+   padding: 30px;
+   height: 30px;
 }
-.c:hover{
-    transform: scale(1.5);
+.nh{
+     
+    font-family: "Stack Sans Text", sans-serif;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding-top:5em;
+    
+
+  
 }
-.N{ font-family:"Science Gothic", sans-serif;
-    margin-left: 10px;
+
+.y{
+    margin-left: 90px;
+    text-align:center;
+    display: flex;
+    gap: 70px;
+    padding-top: 2em;
+    width: 25em;
+    height:25em;
+    margin-top:-0px;
+    border-radius: 20px;
+}
+.d{font-family: "Permanent Marker", cursive;
+    position: absolute;
+    color: black;
+    padding-top:em;
+    font-size:40px;
+    padding-left:50px;
+    color: brown;
+    cursor: pointer;
+}
+
+    
+.t{
+    width:25em;
+    height:25em;
+}
+.t:hover p{
+    display:flex;
+    position: absolute;
+    
+}
+   
+
+
+.b{
+    width:25em;
+    height:25em;
+}
+.ng{font-family: "Permanent Marker", cursive;
+    position: absolute;
+    font-size: 40px;
+    padding-left:40px;
+    color: brown;
+}
+
+.o{
+  width:25em;
+  height:25em;
+}
+.bg{font-family:"Permanent Marker", cursive;
+    position: absolute;
+    padding-left: 1em;
+    font-size: 40px;
+    color:brown;
+    
+}
+
+
+
+.lk{font-family: "Knewave", system-ui;
+    padding-top:20%;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0px 0px 2px gainsboro;
+   
+    
+    
+
+}
+.cx{
+    padding-left:30px;
+    display: flex;
+    gap:60px;
+    border-radius: 50%;
+    width:320px;
+    height:320px;
+    
+    
+}
+
+
+.sh{
+   border-radius: 50%;
+    width:250px;
+    height:250px;
+    cursor:pointer;
+
+    
+  
+}
+.shn{font-family: "Permanent Marker";
+    position: absolute;
+    padding-top: 15%;
+    font-size:30px;
+    padding-left: 20px;
+   
+}
+
+.oh{
+   border-radius: 50%;
+   width: 250px;
+   height: 250px;
+   cursor:pointer;
+   
+}
+.ohmn{
+    position: absolute;
+    font-family:"Permanent Marker";
+    padding-left: 13em;
+    padding-top: 15%;
+    font-size: 25px;
+    
+   
+}
+.ks{
+    border-radius: 50%;
+    width: 250px;
+    height:250px;
+    cursor: pointer;
+}
+.ky{
+    position:absolute;
+    font-family: "Permanent Marker";
+    padding-left: 21.3em;
+    padding-top: 15%;
+    font-size: 30px;
+
+}
+
+.ek{
+    border-radius:50%;
+    width:250px;
+    height:250px;
+}
+.Ek{
+    position: absolute;
+    font-family: "Permanent Marker";
+    padding-left: 32em;
+    padding-top: 15%;
+    font-size: 30px;
+
+}
+.to{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.tof{
+    position: absolute;
+    font-family:"Permanent Marker";
+    padding-left: 43em;
+    padding-top: 15%;
+    font-size:30px;
+}
+
+.fb{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 5em;
+}
+
+
+.f{margin-top: 80em;}
+
+
+.N{ font-family: "Roboto Condensed", sans-serif;
+   margin-left: 10px;
     height: 4em;
     width: 5em;
     background-color: red;
@@ -68,4 +326,7 @@ body{
 }
 .p:hover{
     transform:scale(1.5);
+}
+.g{
+    margin-top: 80em;
 }
